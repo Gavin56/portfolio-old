@@ -7,10 +7,23 @@
     bottom: 0;
     width: 100%;
     background-color: rgb(65, 65, 65);
-    color: white;
+    color: rgb(102, 102, 102);
     text-align: center;
 }
 
+header nav h1 {
+    background-color: teal; 
+    color: white; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#navbarToggleExternalContent {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+    background-color: lightgray; padding: 17px; border-style:ridge; border-color: rgb(65, 65, 65);
+}
 
 .pull-left {
     float:left;
