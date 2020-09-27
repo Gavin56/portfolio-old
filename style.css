@@ -54,7 +54,7 @@ header nav h1 {
     font-size:7vw;
 }
 
-.pull-left {
+#pull-left {
     float:left;
     width:50%; 
     margin: 0px 23px 0px 30px;
