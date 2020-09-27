@@ -1,3 +1,11 @@
+html { 
+    background: url('https://wallpaperset.com/w/full/a/8/4/38610.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 .footer {
     border-top-style: solid;
     border-width: thick;
@@ -9,6 +17,7 @@
     background-color: rgb(65, 65, 65);
     color: rgb(102, 102, 102);
     text-align: center;
+    position: fixed;
 }
 
 header nav h1 {
@@ -25,7 +34,38 @@ header nav h1 {
     background-color: lightgray; padding: 17px; border-style:ridge; border-color: rgb(65, 65, 65);
 }
 
+#body {
+    height: 100%;
+}
+
+#background { 
+    background: url('https://wallpaperset.com/w/full/a/8/4/38610.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+#jumbotron {
+    margin-top:10rem; 
+    margin-bottom:10rem;
+}
+
+#aboutMe {
+    color: teal; 
+    font-family: 'Courier New', Courier, monospace; 
+    margin-left:45px;
+    font-size:7vw;
+}
+
 .pull-left {
     float:left;
+    width:50%; 
+    margin: 0px 30px 0px 30px;
+}
+
+p {
+    margin: 0px 30px 30px 30px; 
+    font-family:Verdana, 'Geneva', Tahoma, sans-serif;
 }
 

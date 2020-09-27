@@ -12,41 +12,49 @@
 <body>
 
     <!-- Navbar -->
-    <header class="row">
+    <header class = "row">
         <div class="col-12">
-            <div class="collapse" id="navbarToggleExternalContent">
-                <div class="bg-dark p-4">
+            <div class="fixed-top">
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="bg-dark p-4">
 
-                    <!-- Link to other website locations -->
-                    <a class="text-white h4" href="portfolio.html">Portfolio</a>
-                    <br>
-                    <a class="text-white h4" href="index.html">About Me</a>
+                        <!-- Link to other website locations -->
+                        <a class="text-white h4" href="portfolio.html">Portfolio</a>
+                        <br>
+                        <a class="text-white h4" href="index.html">About Me</a>
+                    </div>
                 </div>
-            </div>
 
-            <nav class="navbar navbar-light">
-                <h1>Gavin O'Brien</h1>
-                    
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                    aria-expanded="true" aria-label="Toggle navigation" style="float: right">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </nav>
+                <nav class="navbar navbar-light">
+                    <h1>Gavin O'Brien</h1>
+                        
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                        aria-expanded="true" aria-label="Toggle navigation" style="float: right">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+            </div>
         </div>
     </header>
     
     <!-- Body content -->
     <div class="row">
-        <div class="col-12" style="background-image: url('https://wallpaperset.com/w/full/a/8/4/38610.jpg'); background-size: 100%;">           
+        
+        <!-- Background column -->
+        <div class="col-12" id = "background">
+  
             <div class="container">
+                
                 <div class="row">
+
                     <!-- Content column -->
-                    <div class="col-md-9" style="background-color: rgb(65, 65, 65); margin: 35px 30px 35px 30px;">
-                        <div class="jumbotron" style="margin-top:1rem; margin-bottom:1rem;">
-                            <h1 class="display-4" style="color: teal; font-family: 'Courier New', Courier, monospace; font-weight: bold;">Contact</h1>
+                    <div class="col-lg-9">
+
+                        <div class="jumbotron" id = "jumbotron">
+                            <h1 class="display-4" id = "aboutMe">Contact</h1>
                             <hr class="my-4">
-                            
+
                             <form>
                                 <div class="form-group">
                                     <label for="nameInput">Name</label>
@@ -72,11 +80,7 @@
             </div>
         </div>
     </div>
-    
-        <!-- Medium/768px is about 7/8 spans with margins and navbar button
-        <div class="row">
-             Navbar column -->
-    
+
     <!-- Footer -->
     <footer class="row">
         <div class="footer">
